@@ -1,0 +1,27 @@
+{
+  "name": "@mpc/mpc",
+  "version": "2020.7.30",
+  "description": "MPC",
+  "browser": "dist/mpc.js",
+  "source": "src/mpc.ts",
+  "types": "src/mpc.ts",
+  "scripts": {
+    "build": "parcel build src/mpc.ts --out-dir dist"
+  },
+  "keywords": [
+    "mpc",
+    "javascript",
+    "typescript"
+  ],
+  "private": true,
+  "browserslist": [
+    "last 1 Chrome versions"
+  ],
+  "author": "MPDieckmann",
+  "license": "UNLICENSED",
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^3.9.7"
+  },
+  "optionalDependencies": {}
+}
