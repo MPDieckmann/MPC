@@ -1,6 +1,6 @@
 {
   "name": "@mpc/mpc",
-  "version": "2020.7.30",
+  "version": "2020.7.31",
   "description": "MPC",
   "browser": "dist/mpc.js",
   "source": "src/mpc.ts",
@@ -13,12 +13,10 @@
     "javascript",
     "typescript"
   ],
-  "private": true,
-  "browserslist": [
-    "last 1 Chrome versions"
-  ],
   "author": "MPDieckmann",
-  "license": "UNLICENSED",
+  "license": "GPL-3.0",
+  "repository": "github:MPDieckmann/MPC",
+  "publishConfig": { "registry": "https://npm.pkg.github.com/" },
   "dependencies": {},
   "devDependencies": {
     "typescript": "^3.9.7"
