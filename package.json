@@ -14,9 +14,9 @@
     "typescript"
   ],
   "author": "MPDieckmann",
-  "license": "GPL-3.0",
+  "license": "UNLICENSED",
   "repository": "github:MPDieckmann/MPC",
-  "publishConfig": { "registry": "https://npm.pkg.github.com/" },
+  "private": true,
   "dependencies": {},
   "devDependencies": {
     "typescript": "^3.9.7"
